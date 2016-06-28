@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.14pt}
+\beamer@sectionintoc {1}{Statistical Model}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{The Discrete Competing Risk Model}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Estimation}{10}{0}{1}
