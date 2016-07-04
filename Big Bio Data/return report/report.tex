@@ -6,9 +6,19 @@
 \usepackage{authblk}
 \usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 
+% add by Chunlong Luo
+\usepackage{amssymb}
+\usepackage{bm}
+%\DeclareMathOperator*{\min}{min}
+\DeclareMathOperator*{\argmin}{argmin}
+% add by Chunlong Luo
+
 %\makeatletter
 %\let\@fnsymbol\@arabic
 %\makeatother
+
+
+
 
 \title{Variable Selection For Discrete Competing Risks Models}
 \date{\today}
@@ -36,7 +46,7 @@
         \paragraph{}When modeling cause-specific hazard rates in competing risk model, each explanatory variable is linked to a group of parameters. A new penalization method is proposed in this article that enforces the simultaneous shrinkage of parameters belonging to such a group. A parameter group even can be completely removed from the model yielding variable selection instead of
         parameter selection. Moreover, the proposed method allows that parameters representing the cause-specific baseline hazards vary over time. In order to avoid that adjacent parameters of the baseline effects have completely different values, an additional penalty
         term is incorporated that steers the smoothness of the baseline effects.
-        \paragraph{}We apply this method to two modeling problems, the congressional careers of members of the US congress and the duration of unemployment in Germany.
+        \paragraph{}We apply this method to one problems, the congressional careers of members of the US congress.
     
     
     
@@ -175,7 +185,87 @@
     \end{equation}\\
     
     Assuming that all predictors are centered around zero and standardized to a common variance, the norm of unpenalized estimates for the parameter groups is rather large if they belong to strong predictors and small otherwise. Consequently, the corresponding penalization is small for strong predictors and large for weak predictors. However, these penalized estimators with adaptive weights can  provide consistent variable selection.
-    \section{computional ....}% also Method
+    \section{Computional Issues}% also Method
+    
+    \paragraph{}To estimate the parameters $\bm{\beta_0}$ and $\bm{\gamma}$,the penalized log-likelihood $l_{\zeta_1,\zeta_2}(\bm{\beta_0},\bm{\gamma})$ can be formulated as
+    \begin{equation}
+    (\bm{\hat{\beta_0}},\bm{\hat{\gamma}}) = \mathop{\argmin}_{\bm{\beta_0},\bm{\gamma}}\Big(-l(\bm{\beta_0},\bm{\gamma})+\zeta_1\bm{J_1(\bm{\beta_0})} + \zeta_2\bm{J_2(\gamma)}\Big)
+    \end{equation}
+    The alogrithm for solving this convex optimization problem used by author is based on proximal gradient algorithms.
+    
+    Proximal gradient method belongs to a class of algorithms, called proximal algorithms, for solving convex optimization problems.Proximal methods sit at a higher level of abstraction than classical algorithms like Newton's method: the base operation is evaluating the proximal operator of a function, which itself involves solving a small convex optimization problem.
+    
+    So in this section, we discribe some details of the estimate approach.First, some definition of proximal operator are introduced,then the proximal gradient method that applied in here is outlined.Finally, the tuning parameter selection for discrete competing risk models is presented.
+    \subsection{Proximal operator}
+    \paragraph{}Let $f:\bm{R}^n\to \bm{R}\cup\{+\infty\}$ be a closed proper convex function,the proximal operator $\mathbf{prox}_f:\bm{R}^n\to \bm{R}^n$ of $f$ is defined by
+    \begin{equation}
+    \mathbf{prox}_f(v) = \mathop{\argmin}_x\Big(f(x)+(1/2)\rVert x-v\rVert_2^2\Big)
+    \end{equation}
+    where $\rVert \cdot\rVert_2$ is $L_2$ norm.
+    
+    The definition indicates that $\mathbf{prox}_f(v)$ is a point that compromises between minimizing $f$ and being near to $v$. For this reason, $\mathbf{prox}_f(v)$ is sometimes called a proximal point of $v$ with respect to $f$.
+    
+    The proximal operator of $f$ can also be interpreted as a kind of gradient step for the function $f$. In particular, we have
+    \begin{equation}
+    \mathbf{prox}_{\lambda f}(v)\approx v-\lambda\nabla f(v)
+    \end{equation}
+    when $\lambda$ is small and $f$ is differentiable. This suggests that there is a close connection between proximal operators and gradient methods, and also indicates that the proximal operator may be useful in optimization. It also suggests that $\lambda$ will play a role similar to a step size in a gradient method.
+    
+    \subsection{Proximal gradient method}
+    \paragraph{}Consider the unconstrained problem with cost function split in two components
+    \begin{equation}
+    \mathop{\min}\ f(x)+g(x)
+    \end{equation}
+    where $f:\bm{R}^n\to\bm{R}$ and $g:\bm{R}^n\to \bm{R}\cup\{+\infty\}$are closed proper convex and $f$ is differentiable.In this form, we split the objective into two terms, one of which is differentiable.
+    
+    The proximal gradient method is
+    \begin{equation}
+    x^{(k+1)}:=\mathbf{prox}_{\lambda^{(k)}g}\Big(x^{(k)}-\lambda^{(k)}\nabla f(x^{(k)})\Big)
+    \end{equation}
+    where $\lambda^{(k)}>0$ is a step size,constant or determined by line search.
+    
+    So it was exploited that log-likelihood term $-l(\bm{\beta_0},\bm{\gamma})$ is convex and differentiable ,both the overall penalty term $\bm{J}_{\zeta_1,\zeta_2}$  and the $L_2^2$-term in can be decomposed into nonoverlapping parts that only contain either $\bm{\beta}_0$ or $\gamma$.
+    
+    So for $k=0,1,2,\dots$ until convergence, the proximal gradient iterations are given by
+    \begin{equation}
+    \bm{\hat{\beta}}_0^{(k+1)} = \mathbf{Prox}_{\zeta_1/v_{(k)}J_1}\bigg( \mathbf{v}^{(k)}:= \bm{\hat{\beta}}_0^{(k)}+\frac{1}{v^{(k)}} \cdot \frac{\partial l(\bm{\hat{\beta}}_0^{(k)},\bm{\hat{\gamma}}^{(k)})}{\partial \bm{\beta}_0}\bigg)
+    \end{equation}
+    and
+    \begin{equation}
+    \bm{\hat{\gamma}}^{(k+1)} = \mathbf{Prox}_{\zeta_2/v_{(k)}J_2}\bigg( \mathbf{w}^{(k)}:= \bm{\hat{\gamma}}^{(k)}+\frac{1}{v^{(k)}} \cdot \frac{\partial l(\bm{\hat{\beta}}_0^{(k)},\bm{\hat{\gamma}}^{(k)})}{\partial \bm{\gamma}}\bigg)
+    \end{equation}
+    where $v^{k}>0$ is an inverse stepsize parameter.The search points $\bm{v}$ and $\bm{w}$ for $\bm{\beta}_0$ and $\bm{\gamma}$, respectively, are obtained from a first order approximation of the log-likelihood term in (10) and can be considered a one-step approximation of the ML estimator, based on the current solution.
+    
+    Since the penalty on the $\gamma$-parameters in (7) is a groupwise $L_2$-norm, the solution to (13) is obtained by blockwise application of the well-known group-soft-thresholding operator.
+    
+    Let $J_2(\gamma) = \sum_{j=1}^p\phi_j\rVert\gamma_j\rVert=\sum_{j=1}^pJ_{2j}$and let $\bm{w}$ be partitioned like $\bm{\gamma}$.Then, we can get the analytical solution
+    \begin{equation}
+    \mathbf{Prox}_{\zeta_2/v\cdot J_{2j}}(\bm{w}_{\cdot j}) = \bigg(1-\frac{\zeta_2\phi_j/v}{\rVert\bm{w}_{\cdot j}\rVert}\bigg)_+\bm{w}_{\cdot j},\quad j = 1,\dots,p.
+    \end{equation}
+    where $(u)_+=\max (u,0)$.
+    
+    To derive a closed solution to, we rewrite the penalty on the baseline parameters:$\mathbf{J}_1(\bm{\beta}_0) = \sum_{r=1}^{m}\sum_{t=2}^q(\beta_{0tr}-\beta_{0,t-1,r})^2=\sum_{r=1}^m\mathbf{J}_{1r}$.Let $D$ denote the first-order difference matrix, that is,
+    \[D=
+    \left(
+    \begin{array}{ccccc}
+    -1 &  1 &   &  & 0 \\
+    & -1 & 1 &  &  \\
+    &    & \ddots  & & \\
+    0  &    &   & -1 & 1 \\
+    \end{array}
+    \right)\]
+    so that we have $J_{1r}=\rVert\bm{D\beta_{0r}}\rVert_2^2$.Hence, the proximal operator only contains quadratic terms and thus,with $\bm{\Omega}= \bm{D}^T\bm{D}$ and identity matrix $\bm{I}$,admits an analytical solution:
+    \begin{equation}
+    \mathbf{Prox}_{\zeta_1/v\cdot J_{1r}}(\bm{v}_{\cdot r}) = (\bm{I}+\frac{\zeta_1}{v}\bm{\Omega})^{-1}\bm{v}_{\cdot r},\quad r = 1,\dots,m
+    \end{equation}
+    \subsection{Tuning parameter selection}
+    The tuning parameters $\zeta_1$ and $\zeta_2$ can be chosen by k-fold cross-validation with a modification to standard form.We let $\mathbf{I}_s$ denote the index set of observations that belog to fold $s$ for folds $s = 1,\dots,k$.And the $\hat{\lambda}_r^{(-s)}$ denote the estimate for $\lambda_r$ that is based on other folds except for $\mathbf{I}_s$.
+    
+    We use the (predictive) deviance as the criterion to be cross-validated.So the cross-validated deviance is defined by
+    \begin{equation}
+    D_{CV} = 2\sum_{s=1}^K\sum_{i\in \mathbf{I}_s}\sum_{t=1}^{t_i}\sum_{r=0}^{m}y_{itr}log\bigg(\frac{y_{itr}}{\hat{\lambda}_r(t|\mathbf{x}_i)^{(-s)}}\bigg)
+    \end{equation}
+    In which we can see that all $(m+1)\cdot t_i$ data points $y_{itr}$ belong to the same original observation $i$ assigned to the same cross-validation fold.And the closer the distance between $D_{CV}$ with zero ,the better tuning parameters will be chosen.
     
     \section{Application}
         \paragraph{}In this part, the proposed penalized competing risk model with discrete duration time applied to describe Congressional careers in the United States. A congressman can end his legislative career in four different ways. He might retire (retirement), he might be ambitious and seek an alternative office (ambition), he might lose a primary election(primary) or he might lose a general election (general).

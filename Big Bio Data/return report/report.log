@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.24)  28 JUN 2016 22:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.24)  29 JUN 2016 13:22
 entering extended mode
 **report.tex
 ("D:\Sync\Documents\lectures_spring\Big Bio Data\return report\report.tex"
@@ -182,19 +182,27 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks21
 
 (D:\Dev\CTEX\MiKTeX\tex\latex\geometry\geometry.cfg))
+(D:\Dev\CTEX\MiKTeX\tex\latex\tools\bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
 ("D:\Sync\Documents\lectures_spring\Big Bio Data\return report\report.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 \c@lstlisting=\count114
 
 (D:\Dev\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
@@ -245,11 +253,11 @@ LaTeX Font Info:    ... okay on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 (D:\Dev\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (D:\Dev\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -263,87 +271,89 @@ Missing character: There is no â in font cmr7!
 Missing character: There is no ˆ in font cmr7!
 Missing character: There is no ’ in font cmr7!
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-[4] <Table1.png, id=33, 710.655pt x 405.01312pt>
+[4] [5] <Table1.png, id=39, 710.655pt x 405.01312pt>
 File: Table1.png Graphic file (type png)
  <use Table1.png>
-Package pdftex.def Info: Table1.png used on input line 186.
+Package pdftex.def Info: Table1.png used on input line 276.
 (pdftex.def)             Requested size: 500.484pt x 285.24382pt.
 
-<./Figure1.png, id=34, 319.94531pt x 277.035pt>
+<./Figure1.png, id=40, 319.94531pt x 277.035pt>
 File: ./Figure1.png Graphic file (type png)
  <use ./Figure1.png>
-Package pdftex.def Info: ./Figure1.png used on input line 194.
+Package pdftex.def Info: ./Figure1.png used on input line 284.
 (pdftex.def)             Requested size: 223.96017pt x 193.92317pt.
-
+ [6]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 200.
+               Default added (so using `tbp') on input line 290.
 
-<./Figure2.png, id=35, 584.93532pt x 417.05812pt>
+<./Figure2.png, id=45, 584.93532pt x 417.05812pt>
 File: ./Figure2.png Graphic file (type png)
  <use ./Figure2.png>
-Package pdftex.def Info: ./Figure2.png used on input line 202.
+Package pdftex.def Info: ./Figure2.png used on input line 292.
 (pdftex.def)             Requested size: 409.45192pt x 291.93869pt.
- [5 <D:/Sync/Documents/lectures_spring/Big Bio Data/return report/Table1.png>]
-<./Figure3.png, id=40, 767.86874pt x 390.70969pt>
+
+<./Figure3.png, id=46, 767.86874pt x 390.70969pt>
 File: ./Figure3.png Graphic file (type png)
  <use ./Figure3.png>
-Package pdftex.def Info: ./Figure3.png used on input line 210.
+Package pdftex.def Info: ./Figure3.png used on input line 300.
 (pdftex.def)             Requested size: 500.484pt x 254.66176pt.
-
-<./Figure4.png, id=41, 914.66719pt x 456.95718pt>
+ [7 <D:/Sync/Documents/lectures_spring/Big Bio Data/return report/Table1.png>]
+<./Figure4.png, id=51, 914.66719pt x 456.95718pt>
 File: ./Figure4.png Graphic file (type png)
  <use ./Figure4.png>
-Package pdftex.def Info: ./Figure4.png used on input line 220.
+Package pdftex.def Info: ./Figure4.png used on input line 310.
 (pdftex.def)             Requested size: 500.484pt x 250.0373pt.
- [6]
-[7 <D:/Sync/Documents/lectures_spring/Big Bio Data/return report/Figure1.png> <
+ [8]
+[9 <D:/Sync/Documents/lectures_spring/Big Bio Data/return report/Figure1.png> <
 D:/Sync/Documents/lectures_spring/Big Bio Data/return report/Figure2.png>]
-[8 <D:/Sync/Documents/lectures_spring/Big Bio Data/return report/Figure3.png> <
-D:/Sync/Documents/lectures_spring/Big Bio Data/return report/Figure4.png>]
+[10 <D:/Sync/Documents/lectures_spring/Big Bio Data/return report/Figure3.png> 
+<D:/Sync/Documents/lectures_spring/Big Bio Data/return report/Figure4.png>]
 ("D:\Sync\Documents\lectures_spring\Big Bio Data\return report\report.aux") ) 
 Here is how much of TeX's memory you used:
- 3812 strings out of 495354
- 50382 string characters out of 3183635
- 120500 words of memory out of 3000000
- 6940 multiletter control sequences out of 15000+200000
- 14555 words of font info for 55 fonts, out of 3000000 for 9000
+ 3900 strings out of 495354
+ 51319 string characters out of 3183635
+ 121738 words of memory out of 3000000
+ 7014 multiletter control sequences out of 15000+200000
+ 18226 words of font info for 67 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,20n,32p,951b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,20n,32p,951b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D
 :/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Dev/CTEX/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx7.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cme
-x10.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><D:/D
-ev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Dev/CTEX/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmmi5.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Dev/CTEX/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr17.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr5.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Dev/C
-TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Dev/CTEX/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmss8.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D
-:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Dev/CTEX/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on report.pdf (8 pages, 457229 bytes).
+ic/amsfonts/cm/cmbx5.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x7.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Dev/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><D:/Dev/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.
+pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Dev/CTEX/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/Dev/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cmextra/cmmib7.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Dev/CTEX/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/Dev/CTEX/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Dev/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy6.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on report.pdf (10 pages, 505031 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

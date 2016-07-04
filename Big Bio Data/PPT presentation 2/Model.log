@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.24)  28 JUN 2016 23:06
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.24)  29 JUN 2016 09:27
 entering extended mode
 **Model.tex
 ("D:\Sync\Documents\lectures_spring\Big Bio Data\PPT presentation 2\Model.tex"
@@ -812,23 +812,23 @@ Package: beamerfontthemestructurebold 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 17.
+(hyperref)                removing `\\' on input line 21.
 
 ("D:\Sync\Documents\lectures_spring\Big Bio Data\PPT presentation 2\Model.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -878,7 +878,7 @@ LaTeX Font Info:    ... okay on input line 20.
 \everyMPtoPDFconversion=\toks46
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 24.
 
 (D:\Dev\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -888,55 +888,55 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count182
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 ("D:\Sync\Documents\lectures_spring\Big Bio Data\PPT presentation 2\Model.out")
 ("D:\Sync\Documents\lectures_spring\Big Bio Data\PPT presentation 2\Model.out")
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 20.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 20.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 20.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 20.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 20.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 20.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 20.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 20.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 20.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 20.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 20.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 20.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 20.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 20.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 20.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 20.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 20.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 20.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 24.
 
 (D:\Dev\CTEX\MiKTeX\tex\latex\beamer\base\translator\dicts\translator-basic-dic
 tionary\translator-basic-dictionary-English.dict
@@ -962,45 +962,45 @@ Dictionary: translator-numbers-dictionary, Language: English
 ictionary\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 20.
+LaTeX Info: Redefining \includegraphics on input line 24.
 \c@lstlisting=\count183
 
 ("D:\Sync\Documents\lectures_spring\Big Bio Data\PPT presentation 2\Model.nav")
 
-Overfull \vbox (15.63992pt too high) detected at line 21
+Overfull \vbox (15.63992pt too high) detected at line 25
  []
 
 [1
 
 {D:/Dev/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
 (D:\Dev\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 (D:\Dev\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 44.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 40.
+LaTeX Font Info:    No file OMScmss.fd. on input line 44.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/bx/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 40.
+(Font)              for symbol `textbullet' on input line 44.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <4> not available
-(Font)              size <5> substituted on input line 40.
+(Font)              size <5> substituted on input line 44.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 40.
+(Font)              size <5> substituted on input line 44.
 
 [3
 
@@ -1010,10 +1010,10 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 File: ./two_patient.png Graphic file (type png)
 
 <use ./two_patient.png>
-Package pdftex.def Info: ./two_patient.png used on input line 61.
+Package pdftex.def Info: ./two_patient.png used on input line 65.
 (pdftex.def)             Requested size: 307.28987pt x 144.7972pt.
 
-Overfull \vbox (18.97482pt too high) detected at line 61
+Overfull \vbox (18.97482pt too high) detected at line 65
  []
 
 [5
@@ -1023,10 +1023,10 @@ Overfull \vbox (18.97482pt too high) detected at line 61
 File: ./transition.png Graphic file (type png)
 
 <use ./transition.png>
-Package pdftex.def Info: ./transition.png used on input line 74.
+Package pdftex.def Info: ./transition.png used on input line 78.
 (pdftex.def)             Requested size: 146.34787pt x 147.25125pt.
 
-Overfull \vbox (23.55804pt too high) detected at line 74
+Overfull \vbox (23.55804pt too high) detected at line 78
  []
 
 [6
@@ -1045,7 +1045,7 @@ png>] [7
 ] [12
 
 ]
-Overfull \vbox (31.18231pt too high) detected at line 190
+Overfull \vbox (31.18231pt too high) detected at line 194
  []
 
 [13
@@ -1058,12 +1058,12 @@ Overfull \vbox (31.18231pt too high) detected at line 190
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
 
 ("D:\Sync\Documents\lectures_spring\Big Bio Data\PPT presentation 2\Model.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `Model.out' has not changed.
 (rerunfilecheck)             Checksum: 5EF131313F40CCC3BA95CCDBA20FAB2E;197.
 
@@ -1077,7 +1077,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  19829 strings out of 495354
  371010 string characters out of 3183635
- 449146 words of memory out of 3000000
+ 449417 words of memory out of 3000000
  22512 multiletter control sequences out of 15000+200000
  13096 words of font info for 48 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1091,7 +1091,7 @@ onts/type1/public/amsfonts/cm/cmssi10.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmssi8.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><D:/Dev/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Dev/CT
 EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Model.pdf (15 pages, 236017 bytes).
+Output written on Model.pdf (15 pages, 236507 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
